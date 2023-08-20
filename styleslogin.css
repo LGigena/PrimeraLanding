@@ -1,0 +1,131 @@
+*{
+	margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg_color: #f9f4ef;
+    --primary: #020826;
+    --text_brown: hsl(38, 65%, 28%);
+    --button:#8c7851;
+    --button_text:#fffffe;
+    --stroke:#020826;
+    --main:#fffffe;
+    --highlight:#b19c73;
+    --secondary:#eaddcf;
+    --tertary:#f25042;
+}
+
+.body{
+    background-color: var(--highlight);
+    font-family: "inter";
+}
+
+.navbar{
+    background-color: var(--highlight);
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px 0px 5px;
+    word-spacing: 12px;
+}
+
+.navbar_list{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.list{
+    text-decoration: none;
+    color: var(--primary);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 600%;
+}
+
+.list_home{
+    text-decoration: none;
+    color: var(--secondary);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400%;
+}
+
+.container{
+    background-color:rgb(100, 70, 31);
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin-top: 80px;
+    padding: 10px;
+}
+
+.div{
+    width: 250px;
+    height: 250px;
+    background-color:var(--button);
+    border-radius: 10px;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    padding: 0.4rem;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    padding: 0.4rem;
+}
+
+.email::placeholder{
+    color: black;
+    font-weight: 500;
+}
+
+.password::placeholder{
+    color: black;
+    font-weight: 500;
+}
+
+.email:hover{
+    background:grey;
+}
+
+.password:hover{
+    background:grey;
+}
+
+.submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    padding: 0.4rem;
+    background-color: #020826;
+    color: var(--main);
+}
+
